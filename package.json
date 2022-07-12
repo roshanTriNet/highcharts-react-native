@@ -40,7 +40,8 @@
     "@highcharts/highcharts-react-native": "./dist/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/roshans"
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
