@@ -1,10 +1,10 @@
 {
-  "name": "@highcharts/highcharts-react-native",
-  "version": "3.1.7",
+  "name": "@highcharts/highcharts-expo",
+  "version": "3.1.8",
   "license": "SEE LICENSE IN <LICENSE>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/highcharts/highcharts-react-native-official.git"
+    "url": "git+https://github.com/roshanTriNet/highcharts-react-native.git"
   },
   "dependencies": {
     "metro-config": "0.60.0",
@@ -40,5 +40,8 @@
     "react-dom": "16.4.0",
     "react-test-renderer": "16.4.0",
     "react-unit": "3.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/roshans"
   }
 }
