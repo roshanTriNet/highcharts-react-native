@@ -1,6 +1,6 @@
 {
   "main": "node_modules/expo/AppEntry.js",
-  "name": "highcharts-react-native",
+  "name": "@roshans/highcharts-expo",
   "version": "3.1.7",
   "scripts": {
     "start": "expo start",
@@ -14,7 +14,7 @@
   "license": "SEE LICENSE IN <LICENSE>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/highcharts/highcharts-react-native.git"
+    "url": "git+https://github.com/roshanTriNet/highcharts-react-native.git"
   },
   "keywords": [
     "highcharts",
@@ -27,8 +27,7 @@
     "url": "https://github.com/highcharts/highcharts-react-native"
   },
   "contributors": [
-    "Sebastian Bochan <sebastian@blacklabel.pl>",
-    "Daniel Studencki <daniel.studencki@gmail.com>"
+    "Roshan Shendre"
   ],
   "homepage": "https://github.com/highcharts/highcharts-react-native#readme",
   "dependencies": {
@@ -39,6 +38,9 @@
     "react-native-web": "~0.11.7",
     "react-native-webview": "10.6.0",
     "@highcharts/highcharts-react-native": "./dist/"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/roshans"
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
